@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>I Listen to God</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="cordova.js" charset="utf-8"></script>
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="lib/jquery-mobile/jquery.mobile-1.4.1.min.css" />
+    <link rel="stylesheet" href="css/il2g-styles.css" />
+    
+    <!-- Librerias -->
+    <script src="lib/jquery-mobile/jquery-1.10.1.js"></script>
+    <script src="lib/jquery-mobile/jquery.mobile-1.4.1.js"></script>
+
+    <!-- Eventos -->
+    <script src="js/index.js"></script>
+    
+</head>
+<body>
+    <div data-role="page" id="indexPage" data-fullscreen="true">
+    
+        <div data-role="header" data-position="fixed">
+            <h1>IL2G</h1>
+            <a href="#" class="ui-btn ui-btn-right ui-corner-all ui-shadow ui-icon-search ui-btn-icon-left">Buscar citas</a>
+        </div>
+                
+        <div role="main" class="ui-content">
+            <section id="contenido">
+                <article>
+                    <div class="tituloCita">
+                        <h2>Dios dice:</h2>
+                    </div>
+                    <div class="contenedorCita">
+                        <p id="citaBiblica">
+                            En efecto,  Herodes mismo hab\u00eda mandado que arrestaran a Juan y que lo encadenaran en la c\u00e1rcel.  Herodes se hab\u00eda casado con Herod\u00edas,  esposa de Felipe su hermano,  y Juan le hab\u00eda estado diciendo a Herodes: La ley te proh\u00edbe tener a la esposa de tu hermano. (Marcos 6, 17-18)
+                        </p>
+                    </div> 
+                    <div id="botoneraCita" data-role="controlgroup" data-type="horizontal">
+                        <a id="guardarCita" href="#" class="ui-btn">Guardar cita</a>
+                        <a id="compartirFacebook" href="#" class="ui-btn">F</a>
+                        <a id="compartirTwitter" href="#" class="ui-btn">t</a>
+                        <a id="compartirGooglePlus" href="#" class="ui-btn">g+</a>
+                    </div>
+                </article>
+            </section>
+            <div id="temasRelacionados">
+                <ul data-role="listview">
+                    <li data-role="list-divider">Temas</li>
+                    <li><a href="#">fe</a></li>
+                    <li><a href="#">Protección</a></li>
+                </ul>
+            </div>
+            <div id="fuentesRelacionadas">
+                <ul data-role="listview">
+                    <li data-role="list-divider">Fuentes</li>
+                    <li><a href="#">La Biblia</a></li>
+                </ul>
+            </div>
+            <a id="guardarCita" href="#" class="ui-btn">Dios, yo te escucho!</a>
+        </div>
+        
+        <div data-role="footer" data-position="fixed">
+            <h2>Powered by jesussalvamifamilia.org</h2>
+        </div>
+        
+    </div>
+</body>
+</html>
+
