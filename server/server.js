@@ -1,7 +1,7 @@
 var http = require('http'),
     st   = require('node-static'),
     opts = { cache: false },
-    file = new st.Server('../il2g/www', opts),
+    file = new st.Server('./il2g/www', opts), //for npm start script from ../package.json
     port = process.env.PORT || 3000;
 
 http.createServer(function (req, res) {
