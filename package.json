@@ -18,6 +18,7 @@
   "homepage": "https://github.com/damorenon/iListenToGod",
   "devDependencies": {
     "cordova": "^3.4.1-0.1.0",
-    "node-static": "^0.7.3"
+    "node-static": "^0.7.3",
+    "stylus": "^0.44.0"
   }
 }
