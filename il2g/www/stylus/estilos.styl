@@ -1,8 +1,8 @@
 @import "normalize.styl"
 
-footerBackgColor = blue
+footerBackgColor = #031a48
 footerHeight = 2.5rem
-headerBackgColor = blue
+headerBackgColor = #031a48
 headerHeight = 4rem
 
 *
@@ -12,10 +12,10 @@ headerHeight = 4rem
 a
 	text-decoration none
 body
-	font-size 18px
+	font-size 25px
 footer
 	background-color footerBackgColor
-	border-top 1px solid #444
+	border-top .2rem solid #10AFC0
 	bottom 0
 	height footerHeight
 	left 0
@@ -26,7 +26,7 @@ footer
 	z-index 2
 header
 	background-color headerBackgColor
-	border-bottom 1px solid #D8D8D8
+	border-bottom .4rem solid #10AFC0
 	font-weight bold
 	height headerHeight
 	left 0
@@ -41,8 +41,16 @@ header, footer
 	font-size 22px
 	text-align center
 	text-shadow 0 -1px 0 rgba(0,0,0,0.5)
+.articleBody
+	margin 1rem 0
+.articleHeader
+	background-color #e4f2fb
+.sectionCita article
+	background-color #fff
+	padding 1rem
+	margin .8rem
 #wrapper
-	background #aaa
+	background-color #E7E7E7
 	bottom footerHeight
 	left 0
 	overflow auto
